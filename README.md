@@ -16,3 +16,32 @@ Software engineering is still young at heart and is evolving quite quickly. It c
 To that end, I decided to take it upon myself to showcase how, given an infinite amount of time, I would engineer a system such as a copy of Twitter. Being the only developer working on this project, I cannot hope to capture everything _Twitter_ is doing as a product, which is perfectly fine. The truth is that I want to go through the main pain points that are encountered as we're building a product from the ground up while making sure it matches the user requirements. 
 
 I would like to make perfectly clear: there are several ways to approach re-building _Twitter_ from the ground up. The following repository shows my perspective on the matter as I'm trying to learn more about my craft while building this proof of concept. As you go through the repository's contents, if there is something that you think can list as an issue, do create a ticket with your comment. I appreciate feedback and will take the opportunity to learn from you, the set of individuals from the technical community who took some of their time to review my work! :)
+
+## Features cloned
+
+- [The home timeline](https://help.twitter.com/en/using-twitter/twitter-timeline):
+ > Home serves Tweets from accounts and Topics you follow as well as recommended Tweets
+
+ > _In the scope of the project, we will solely focus on the Tweets coming from accounts that we follow and tweets liked by accounts we follow._
+
+- Registering on the platform with a _handle_.
+
+- Posting tweets which have a character limit of 280 characters. (no hashtag or  video or image support for now.)
+
+- Allowing end-users to _Like_ a tweet.
+
+- Allowing end-users to _Retweet_ a tweet on their own home timeline.
+
+- Allowing end-users to _Follow_ an account.
+
+- Setting the profile of the account through a _Bio_ and an _Avatar_.
+
+- Setting the month the account registered on the platform.
+
+- Observing the amount of accounts followed by a end-user and the amount of followers it has.
+
+ - Allowing end-users to _Search_ for tweets through search keywords.
+
+ - Allowing end-users to see the tweets they've liked on the platform.
+
+ - Allowing end-users to do single conversation responses to tweets.
