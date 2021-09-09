@@ -6,12 +6,11 @@ As the reader probably knows, [Twitter](https://twitter.com/) is a social media 
 
 The main goal is to somehow recreate the implementation of _Twitter_ as a training exercise to demonstrate how it can be possible to engineer a distributed system. 
 
-
 ## Motivation
 
 Being quite fond of software design, I've decided to push the boundaries of my knowledge and deepen my expertise in the topics that have piqued my interest thus far. Another reason for this passion project is to provide a helpful guide with a blog series attached to this repository in the future. 
 
-Software engineering is still young at heart and is evolving quite quickly. It can be challenging to find the exact pieces you were looking for when web articles only focus on a small topic instead of demonstrating the entire picture. As we all know, the final vision is bigger than the sum of the parts.
+Software engineering is still young at heart and is evolving quite quickly. Finding the exact pieces you were looking for can be challenging when web articles only focus on a small topic instead of demonstrating the entire picture. As we all know, the final vision is bigger than the sum of the parts.
 
 To that end, I decided to take it upon myself to showcase how, given an infinite amount of time, I would engineer a system such as a copy of Twitter. Being the only developer working on this project, I cannot hope to capture everything _Twitter_ is doing as a product, which is perfectly fine. The truth is that I want to go through the main pain points that are encountered as we're building a product from the ground up while making sure it matches the user requirements. 
 
@@ -38,10 +37,14 @@ I would like to make perfectly clear: there are several ways to approach re-buil
 
 - Setting the month the account registered on the platform.
 
-- Observing the amount of accounts followed by a end-user and the amount of followers it has.
+- Observing the number of accounts followed by an end-user and the number of followers it has.
 
  - Allowing end-users to _Search_ for tweets through search keywords.
 
  - Allowing end-users to see the tweets they've liked on the platform.
 
- - Allowing end-users to do single conversation responses to tweets.
+ - Allowing end-users to make single conversation responses to tweets.
+
+## System design
+
+Learn more about the system design for Hermes [here](#docs/system-design/abstract-design.md).
