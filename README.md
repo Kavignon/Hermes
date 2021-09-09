@@ -47,4 +47,4 @@ I would like to make perfectly clear: there are several ways to approach re-buil
 
 ## System design
 
-Learn more about the system design for Hermes [here](#docs/system-design/abstract-design.md).
+Learn more about the system design for Hermes [here](#docs/system-design/hermes-design.md).
