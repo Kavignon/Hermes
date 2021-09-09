@@ -7,3 +7,12 @@ As the reader probably knows, [Twitter](https://twitter.com/) is a social media 
 The main goal is to somehow recreate the implementation of _Twitter_ as a training exercise to demonstrate how it can be possible to engineer a distributed system. 
 
 
+## Motivation
+
+Being quite fond of software design, I've decided to push the boundaries of my knowledge and deepen my expertise in the topics that have piqued my interest thus far. Another reason for this passion project is to provide a helpful guide with a blog series attached to this repository in the future. 
+
+Software engineering is still young at heart and is evolving quite quickly. It can be challenging to find the exact pieces you were looking for when web articles only focus on a small topic instead of demonstrating the entire picture. As we all know, the final vision is bigger than the sum of the parts.
+
+To that end, I decided to take it upon myself to showcase how, given an infinite amount of time, I would engineer a system such as a copy of Twitter. Being the only developer working on this project, I cannot hope to capture everything _Twitter_ is doing as a product, which is perfectly fine. The truth is that I want to go through the main pain points that are encountered as we're building a product from the ground up while making sure it matches the user requirements. 
+
+I would like to make perfectly clear: there are several ways to approach re-building _Twitter_ from the ground up. The following repository shows my perspective on the matter as I'm trying to learn more about my craft while building this proof of concept. As you go through the repository's contents, if there is something that you think can list as an issue, do create a ticket with your comment. I appreciate feedback and will take the opportunity to learn from you, the set of individuals from the technical community who took some of their time to review my work! :)
